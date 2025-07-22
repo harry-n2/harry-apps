@@ -1,62 +1,90 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <title>アプリ一覧 - harry-apps</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      background-color: #f5f5f5;
-      margin: 0;
-      padding: 2rem;
-    }
-    h1 {
-      color: #333;
-    }
-    ul {
-      list-style: none;
-      padding: 0;
-    }
-    li {
-      margin: 1rem 0;
-    }
-    a {
-      text-decoration: none;
-      color: #0066cc;
-      font-size: 1.2rem;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
-</head>
-<body>
-  <h1>公開アプリ一覧</h1>
-  <ul id="app-list">
-    <!-- 自動追加される -->
-  </ul>
-
-  <script>
-    const htmlFiles = [
-      "ai_teacher.html",
-      "anki_marathon.html",
-      "anki_puzzle_craft.html",
-      "anki_racing.html",
-      "art.html",
-      "battle.html",
-      "bio_zoo.html",
-      "brain_training_dojo.html",
-      "bungakushi_travel.html",
-      "bushu_monster.html"
-    ];
-
-    const list = document.getElementById("app-list");
-    htmlFiles.forEach(file => {
-      const name = file.replace(".html", "").replace(/_/g, " ");
-      const li = document.createElement("li");
-      li.innerHTML = `<a href="${file}">${name}</a>`;
-      list.appendChild(li);
-    });
-  </script>
-</body>
-</html>
+<head><meta charset="UTF-8"><title>アプリ一覧</title></head>
+<body><h1>アプリ一覧</h1><ul>
+<li><a href="ai_teacher.html">ai_teacher.html</a></li>
+<li><a href="ankicard_magic_school.html">ankicard_magic_school.html</a></li>
+<li><a href="anki_manga_studio.html">anki_manga_studio.html</a></li>
+<li><a href="anki_marathon.html">anki_marathon.html</a></li>
+<li><a href="anki_puzzle_craft.html">anki_puzzle_craft.html</a></li>
+<li><a href="anki_racing.html">anki_racing.html</a></li>
+<li><a href="art.html">art.html</a></li>
+<li><a href="battle.html">battle.html</a></li>
+<li><a href="bio_zoo.html">bio_zoo.html</a></li>
+<li><a href="brain_training_dojo.html">brain_training_dojo.html</a></li>
+<li><a href="bungakushi_travel.html">bungakushi_travel.html</a></li>
+<li><a href="bushu_monster.html">bushu_monster.html</a></li>
+<li><a href="casino.html">casino.html</a></li>
+<li><a href="cell_explorer.html">cell_explorer.html</a></li>
+<li><a href="chemical_recipe.html">chemical_recipe.html</a></li>
+<li><a href="constitution_bingo.html">constitution_bingo.html</a></li>
+<li><a href="creative_apps.html">creative_apps.html</a></li>
+<li><a href="detective.html">detective.html</a></li>
+<li><a href="edo_life.html">edo_life.html</a></li>
+<li><a href="eigo-goroawase-oukoku.html">eigo-goroawase-oukoku.html</a></li>
+<li><a href="eijukugo-rhythm-master.html">eijukugo-rhythm-master.html</a></li>
+<li><a href="election_sim.html">election_sim.html</a></li>
+<li><a href="element_squad.html">element_squad.html</a></li>
+<li><a href="flashcard_poker.html">flashcard_poker.html</a></li>
+<li><a href="game_apps.html">game_apps.html</a></li>
+<li><a href="geography_quiz.html">geography_quiz.html</a></li>
+<li><a href="geology_timemachine.html">geology_timemachine.html</a></li>
+<li><a href="goroawase.html">goroawase.html</a></li>
+<li><a href="goroawase_factory.html">goroawase_factory.html</a></li>
+<li><a href="goroawase_lyricist.html">goroawase_lyricist.html</a></li>
+<li><a href="grammar.html">grammar.html</a></li>
+<li><a href="haiku_kigo.html">haiku_kigo.html</a></li>
+<li><a href="health_apps.html">health_apps.html</a></li>
+<li><a href="history_card_battle.html">history_card_battle.html</a></li>
+<li><a href="history_castle.html">history_castle.html</a></li>
+<li><a href="idiom_rhythm.html">idiom_rhythm.html</a></li>
+<li><a href="juken_city.html">juken_city.html</a></li>
+<li><a href="juken_fortune.html">juken_fortune.html</a></li>
+<li><a href="juken_strategy_sim.html">juken_strategy_sim.html</a></li>
+<li><a href="juken_survival.html">juken_survival.html</a></li>
+<li><a href="kanbun_ninpo.html">kanbun_ninpo.html</a></li>
+<li><a href="kanji_animation.html">kanji_animation.html</a></li>
+<li><a href="kanyoku_cooking.html">kanyoku_cooking.html</a></li>
+<li><a href="karaoke.html">karaoke.html</a></li>
+<li><a href="keigo_gakuen.html">keigo_gakuen.html</a></li>
+<li><a href="knowledge_hunter.html">knowledge_hunter.html</a></li>
+<li><a href="knowledge_labyrinth.html">knowledge_labyrinth.html</a></li>
+<li><a href="kobun_rpg.html">kobun_rpg.html</a></li>
+<li><a href="kokugo.html">kokugo.html</a></li>
+<li><a href="kotowaza_zoo.html">kotowaza_zoo.html</a></li>
+<li><a href="magic.html">magic.html</a></li>
+<li><a href="math_area.html">math_area.html</a></li>
+<li><a href="math_rap.html">math_rap.html</a></li>
+<li><a href="memory_palace.html">memory_palace.html</a></li>
+<li><a href="mineral_hunter.html">mineral_hunter.html</a></li>
+<li><a href="monster_training.html">monster_training.html</a></li>
+<li><a href="ninja.html">ninja.html</a></li>
+<li><a href="physics_space.html">physics_space.html</a></li>
+<li><a href="planetarium.html">planetarium.html</a></li>
+<li><a href="plant_simulator.html">plant_simulator.html</a></li>
+<li><a href="pref_character.html">pref_character.html</a></li>
+<li><a href="preposition.html">preposition.html</a></li>
+<li><a href="pronunciation.html">pronunciation.html</a></li>
+<li><a href="puzzle.html">puzzle.html</a></li>
+<li><a href="quiz.html">quiz.html</a></li>
+<li><a href="quiz_battle_royale.html">quiz_battle_royale.html</a></li>
+<li><a href="quiz_escape_game.html">quiz_escape_game.html</a></li>
+<li><a href="rhythm_game.html">rhythm_game.html</a></li>
+<li><a href="riddle.html">riddle.html</a></li>
+<li><a href="rika.html">rika.html</a></li>
+<li><a href="schedule_wizard.html">schedule_wizard.html</a></li>
+<li><a href="sengoku_training.html">sengoku_training.html</a></li>
+<li><a href="shakai.html">shakai.html</a></li>
+<li><a href="shiritori.html">shiritori.html</a></li>
+<li><a href="sogo.html">sogo.html</a></li>
+<li><a href="student_yoga.html">student_yoga.html</a></li>
+<li><a href="study_bank.html">study_bank.html</a></li>
+<li><a href="study_sns.html">study_sns.html</a></li>
+<li><a href="tower.html">tower.html</a></li>
+<li><a href="trade_sim.html">trade_sim.html</a></li>
+<li><a href="utility_apps.html">utility_apps.html</a></li>
+<li><a href="verb.html">verb.html</a></li>
+<li><a href="weather_caster.html">weather_caster.html</a></li>
+<li><a href="world_heritage.html">world_heritage.html</a></li>
+<li><a href="yojijukugo_sengoku.html">yojijukugo_sengoku.html</a></li>
+</ul></body></html>
